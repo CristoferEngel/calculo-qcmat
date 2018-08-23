@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+      <title>Calculadora</title>
+    </head>
+  
+
+    <body>
+      
+      <nav>
+        <div class="nav-wrapper">
+          <center><a>Calcular o Q=m.c.t</a></center>
+        </div>
+      </nav>
+
+      <div class="container">
+        <center>
+      <div class="section">
+        <h5>Massa</h5>
+        <input type="number" id="massa" />
+      </div>
+      </center>
+
+      <center>
+      <div class="section">
+        <h5>Calor especifico</h5>
+        <input type="number" id="calor">   
+      </div>
+      </center>
+
+      <center>
+      <div class="section">
+        <h5>Delta tempo</h5>
+        <input type="number" id="tempo">  
+      </div>
+      </center>
+
+      <center><button onclick="vf()" class="waves-effect waves-light btn" id="botao">Calcular</button></center>
+    </br>
+
+      </div>
+      
+      <script type="text/javascript" src="calcular.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
